@@ -23,3 +23,29 @@ doctest_optionflags = "NORMALIZE_WHITESPACE"
 testpaths = [
     "./tests"
 ]
+
+# poetry configurations
+[tool.poetry]
+name = "{{cookiecutter.project_slug}}"
+version = "0.0.1"
+description = "{{cookiecutter.project_description}}"
+authors = ["{{cookiecutter.author}} <f{{cookiecutter.email}}>"]
+repository = "https://github.com/{{cookiecutter.author_github_handle}}/{{cookiecutter.project_name}}"
+documentation = "https://{{cookiecutter.author_github_handle}}.github.io/{{cookiecutter.project_name}}/"
+readme = "README.md"
+packages = [
+  {include = "{{cookiecutter.project_slug}}"}
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+pre-commit = "*"
+coverage = "*"
+detect-secrets = "*"
+myst-parser = "*"
+python-dotenv = "*"
+Sphinx = "*"
+toml = "*"
