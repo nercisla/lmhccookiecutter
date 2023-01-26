@@ -13,7 +13,6 @@
 ## Install the Python requirements for contributors, and install pre-commit hooks
 requirements:
 	git init
-	poetry init
 	poetry install
 	pre-commit install
 
