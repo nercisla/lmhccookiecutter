@@ -31,7 +31,7 @@ version = "0.0.1"
 description = "{{cookiecutter.overview}}"
 authors = ["{{cookiecutter.organisation_name}} <f{{cookiecutter.contact_email}}>"]
 repository = "https://github.com/{{cookiecutter.organisation_handle}}/{{cookiecutter.repo_name}}"
-documentation = "https://{{cookiecutter.organisational_handle}}.github.io/{{cookiecutter.repo_name}}/"
+documentation = "https://{{cookiecutter.organisation_handle}}.github.io/{{cookiecutter.repo_name}}/"
 readme = "README.md"
 
 [tool.poetry.dependencies]
