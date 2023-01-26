@@ -26,12 +26,12 @@ testpaths = [
 
 # poetry configurations
 [tool.poetry]
-name = "{{cookiecutter.repo_name}}"
+name = "{{cookiecutter.project_name}}"
 version = "0.0.1"
-description = "{{cookiecutter.project_description}}"
-authors = ["{{cookiecutter.author}} <f{{cookiecutter.email}}>"]
-repository = "https://github.com/{{cookiecutter.author_github_handle}}/{{cookiecutter.project_name}}"
-documentation = "https://{{cookiecutter.author_github_handle}}.github.io/{{cookiecutter.project_name}}/"
+description = "{{cookiecutter.overview}}"
+authors = ["{{cookiecutter.organisation_name}} <f{{cookiecutter.contact_email}}>"]
+repository = "https://github.com/{{cookiecutter.organisation_handle}}/{{cookiecutter.repo_name}}"
+documentation = "https://{{cookiecutter.organisational_handle}}.github.io/{{cookiecutter.repo_name}}/"
 readme = "README.md"
 
 [tool.poetry.dependencies]
