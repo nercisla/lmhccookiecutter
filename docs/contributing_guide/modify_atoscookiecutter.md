@@ -114,9 +114,6 @@ Jinja conditional statements can be used display content based on the user respo
 For example, for the following Markdown:
 
 ```markdown
-### `CONTRIBUTING.md`
-
-The contributing guidelines for this project.
 
 {% if cookiecutter.using_R == "Yes" -%}
 ### `DESCRIPTION`

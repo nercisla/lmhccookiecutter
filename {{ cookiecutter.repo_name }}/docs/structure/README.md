@@ -114,8 +114,7 @@ necessary for the project.
 
 The licence for this project. Unless stated otherwise, the codebase is released under
 the MIT License. This covers both the codebase and any sample code in the
-documentation. The documentation is © Crown copyright and available under the terms of
-the Open Government 3.0 licence.
+documentation. 
 
 ### `Makefile`
 
@@ -173,10 +172,10 @@ An overview of the Git repository, including all necessary instructions to run t
 ### `requirements.txt`
 
 A list of Python package requirements for this Git repository, which can be installed
-using the `pip install` command.
+using the `poetry install` command.
 
 ```shell
-pip install --requirement requirements.txt
+poetry install
 ```
 
 Alternatively, to install the requirements file along with pre-commit hooks, run the

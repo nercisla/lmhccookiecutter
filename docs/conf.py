@@ -1,4 +1,4 @@
-# `govcookiecutter` documentation build configuration file
+# `atoscookiecutter` documentation build configuration file
 #
 # This file is execfile()d with the current directory set to its containing dir.
 #
@@ -49,7 +49,7 @@ source_suffix = {
 master_doc = "index"
 
 # General information about the project.
-project = "govcookiecutter"
+project = "atoscookiecutter"
 author = "Office for National Statistics"
 
 # List of patterns, relative to source directory, that match files and directories to
@@ -61,15 +61,14 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store", "README.md"]
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for a list of
 # builtin themes.
-html_theme = "govuk_tech_docs_sphinx_theme"
+html_theme = "atosuk_tech_docs_sphinx_theme"
 
 # Variables to pass to each HTML page to help populate page-specific options
 html_context = {
-    "github_url": "https://www.github.com/best-practice-and-impact/govcookiecutter",
+    "github_url": "https://www.github.com/nercisla/lmhccookiecutter",
     "gitlab_url": None,
     "conf_py_path": "docs/",
     "version": "main",
-    "accessibility": "accessibility.md",
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme further.
@@ -82,9 +81,9 @@ html_theme_options = {"organisation": "ONS", "phase": "Alpha"}
 html_static_path = ["_static"]
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "govcookiecutterdoc"
+htmlhelp_basename = "atoscookiecutterdoc"
 
-# -- Options for govuk-tech-docs-sphinx-theme ------------------------------------------
+# -- Options for uk-tech-docs-sphinx-theme ------------------------------------------
 
 # Get the latest Git commit hash — this is used to redirect the 'View Source' link
 # correctly. If this fails, default to `main`. Based on code snippet from:

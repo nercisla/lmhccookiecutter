@@ -1,4 +1,4 @@
-# `govcookiecutter` structure
+# `atoscookiecutter` structure
 
 This page provides information on the repository's structure. The repository's folder
 structure is explained here:
@@ -47,10 +47,6 @@ maintainers and `best-practice-and-impact` organisation owners.
 
 File to contain shared fixture functions for the `pytest` tests in the `tests` folder.
 
-### `CONTRIBUTING.md`
-
-The contributing guidelines for this project.
-
 ### `cookiecutter.json`
 
 A JSON file containing the prompts and default values during template generation. Note
@@ -68,8 +64,7 @@ package documentation][cookiecutter].
 
 The licence for this project. Unless stated otherwise, the codebase is released under
 the MIT License. This covers both the codebase and any sample code in the
-documentation. The documentation is © Crown copyright and available under the terms of
-the Open Government 3.0 licence.
+documentation.
 
 ### `Makefile`
 
@@ -128,10 +123,10 @@ An overview of the Git repository, including all necessary instructions to run t
 ### `requirements.txt`
 
 A list of Python package requirements for this Git repository, which can be installed
-using the `pip install` command.
+using the `poetry install` command.
 
 ```shell
-pip install --requirement requirements.txt
+poetry install
 ```
 
 Alternatively, to install the requirements file along with pre-commit hooks, run the
@@ -142,9 +137,9 @@ make requirements
 ```
 
 [black]: https://black.readthedocs.io/en/stable/
-[code-of-conduct]: https://github.com/best-practice-and-impact/govcookiecutter/blob/main/docs/CODE_OF_CONDUCT.md
+[code-of-conduct]: https://github.com/nercisla/lmhccookiecutter/blob/main/docs/CODE_OF_CONDUCT.md
 [cookiecutter]: https://cookiecutter.readthedocs.io/
 [detect-secrets]: https://github.com/Yelp/detect-secrets
-[docs-pre-commit-hooks]: https://github.com/best-practice-and-impact/govcookiecutter/blob/main/docs/%7B%7B%20cookiecutter.repo_name%20%7D%7D/docs/contributor_guide/pre_commit_hooks.md
-[docs-updating-gitignore]: https://github.com/best-practice-and-impact/govcookiecutter/blob/main/docs/%7B%7B%20cookiecutter.repo_name%20%7D%7D/docs/contributor_guide/updating_gitignore.md
+[docs-pre-commit-hooks]: https://github.com/nercisla/lmhccookiecutter/blob/main/docs/%7B%7B%20cookiecutter.repo_name%20%7D%7D/docs/contributor_guide/pre_commit_hooks.md
+[docs-updating-gitignore]: https://github.com/nercisla/lmhccookiecutter/blob/main/docs/%7B%7B%20cookiecutter.repo_name%20%7D%7D/docs/contributor_guide/updating_gitignore.md
 [gds-way-flake8]: https://gds-way.cloudapps.digital/manuals/programming-languages/python/python.html#common-configuration

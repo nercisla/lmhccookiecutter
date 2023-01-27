@@ -16,8 +16,6 @@ To be added.
 
 ### Requirements
 
-[```Contributors have some additional requirements!```][contributing]
-
 - Python 3.6.1+ installed
 {% if cookiecutter.using_R == "Yes" -%}
 - R 4.0.4+ installed
@@ -52,17 +50,11 @@ Unless stated otherwise, the codebase is released under the MIT License. This co
 both the codebase and any sample code in the documentation. The documentation is ©
 Crown copyright and available under the terms of the Open Government 3.0 licence.
 
-## Contributing
-
-[If you want to help us build, and improve `{{ cookiecutter.repo_name }}`, view our
-contributing guidelines][contributing].
-
 ## Acknowledgements
 
 [This project structure is based on the `govcookiecutter` template
 project][govcookiecutter].
 
-[contributing]: https://github.com/best-practice-and-impact/govcookiecutter/blob/main/%7B%7B%20cookiecutter.repo_name%20%7D%7D/docs/contributor_guide/CONTRIBUTING.md
 [govcookiecutter]: https://github.com/best-practice-and-impact/govcookiecutter
 [docs-loading-environment-variables]: https://github.com/best-practice-and-impact/govcookiecutter/blob/main/%7B%7B%20cookiecutter.repo_name%20%7D%7D/docs/user_guide/loading_environment_variables.md
 [docs-loading-environment-variables-secrets]: https://github.com/best-practice-and-impact/govcookiecutter/blob/main/%7B%7B%20cookiecutter.repo_name%20%7D%7D/docs/user_guide/loading_environment_variables.md#storing-secrets-and-credentials

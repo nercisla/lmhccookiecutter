@@ -1,2 +1,2 @@
-```{include} ../../../../{{ cookiecutter.repo_name }}/.govcookiecutter/organisational_frameworks/README.md
+```{include} ../../../../{{ cookiecutter.repo_name }}/.atoscookiecutter/organisational_frameworks/README.md
 ```

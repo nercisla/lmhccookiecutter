@@ -21,11 +21,9 @@ It must also include a `README.md` to link the AQA templates together using in
 
 A `request_template.md` file must be included in each organisation folder. This will be
 used to create a pull (GitHub) or merge (GitLab) request template in the project
-structure created by `govcookiecutter`.
+structure created by `atoscookiecutter`.
 
 You should include hints, and nudges to make sure contributors to your organisation's
 projects follow its AQA framework.
 
-[aqua-book]: https://www.gov.uk/government/publications/the-aqua-book-guidance-on-producing-quality-analysis-for-government
-[aqua-book-resources]: https://www.gov.uk/government/collections/aqua-book-resources
 [myst-parser]: https://myst-parser.readthedocs.io/
